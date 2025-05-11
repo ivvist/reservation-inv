@@ -2,7 +2,7 @@
 
 ## 1. Use Case: Make a Reservation
 
-**Actor**: Guest (widget, mobile app, OTA, phone)
+**Actor**: Guest (widget, mobile app, phone)
 **Preconditions**: Guest can access booking interface; tables available in requested window.
 **Trigger**: Guest selects desired date, time, and party size.
 
@@ -16,7 +16,7 @@
 6. Guest selects a slot.
 7. System requests guest details (name, contact, preferences).
 8. Guest provides details.
-9. System creates reservation and assigns table(s).
+9. System creates reservation and assigns one or more tables.
 10. System sends confirmation notification (email/SMS/push).
 
 ### Alternative Flows
