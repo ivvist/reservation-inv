@@ -5,6 +5,7 @@
 **Actor**: Guest (widget, mobile app, phone)
 
 **Preconditions**: Guest can access booking interface; tables available in requested window.
+
 **Trigger**: Guest selects desired date, time, and party size.
 
 ### Main Flow
