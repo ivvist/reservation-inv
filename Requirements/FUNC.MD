@@ -52,7 +52,7 @@
 – Tag high-spenders, VIPs, dietary restrictions, large groups
 – Targeted marketing campaigns
 
-##5. Communications Engine
+## 5. Communications Engine
 ### Automated Messaging
 – Booking confirmations, reminders (SMS, email, push)
 – Pre-arrival upsell offers (wine pairing, set menus)
