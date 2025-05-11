@@ -9,7 +9,7 @@
 – Push notifications for confirmations, reminders, waitlist updates
 
 ### Third-Party & Social Integrations
-– Direct API for OTAs (OpenTable, Resy, TheFork)
+– Direct API for unTill
 – Book via Instagram/Facebook/Twitter chatbots
 – Voice-assistant booking (Alexa, Google Assistant)
 
