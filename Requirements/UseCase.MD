@@ -2,10 +2,8 @@
 
 ## 1. Use Case: Make a Reservation
 
-**Actor**: Guest (widget, mobile app, phone)
-
+**Actor**: Guest (website widget, mobile app, host interface, phone)
 **Preconditions**: Guest can access booking interface; tables available in requested window.
-
 **Trigger**: Guest selects desired date, time, and party size.
 
 ### Main Flow
@@ -18,7 +16,7 @@
 6. Guest selects a slot.
 7. System requests guest details (name, contact, preferences).
 8. Guest provides details.
-9. System creates reservation and assigns one or more tables.
+9. System creates reservation and assigns table(s).
 10. System sends confirmation notification (email/SMS/push).
 
 ### Alternative Flows
@@ -223,3 +221,30 @@
 ### Postconditions
 
 * Reservation events synchronized with external calendars.
+
+---
+
+## 11. Use Case: Transfer Reservation to Another Table
+
+**Actor**: Host, Manager
+**Preconditions**: Reservation is active and alternative tables are available.
+**Trigger**: Host decides to relocate a reservation (e.g., guest request, operational need).
+
+### Main Flow
+
+1. Host opens reservation details.
+2. System displays list of available tables in time slot.
+3. Host selects new table.
+4. System updates reservation with new table ID.
+5. System notifies kitchen/floor plan if integrated.
+6. (Optional) Guest receives update notification.
+
+### Alternative Flows
+
+* **No Suitable Table**: Host is alerted, and transfer is aborted.
+* **Guest Declines Change**: Transfer is reverted.
+
+### Postconditions
+
+* Reservation updated with new seating assignment.
+* System logs change for auditing.
